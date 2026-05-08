@@ -104,7 +104,7 @@ class LegiTarsasag:
 
 
 def inicializalas():
-    lt = LegiTarsasag("DemoAir")
+    lt = LegiTarsasag("Hungarocontrol")
 
     j1 = BelfoldiJarat("B101", "Debrecen", 15000)
     j2 = NemzetkoziJarat("N202", "London", 55000)
