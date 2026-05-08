@@ -114,7 +114,6 @@ def inicializalas():
     lt.add_jarat(j2)
     lt.add_jarat(j3)
 
-    # 6 előre foglalás (jövőbeli dátumokkal)
     for i in range(6):
         lt.foglalas(j1.get_jaratszam(), datetime.now().replace(day=datetime.now().day + 1))
 
